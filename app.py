@@ -1727,7 +1727,7 @@ if "optimized_summary" in st.session_state:
             baseline_result.total_cost,
             optimized_result.total_cost,
         ],
-        labels=[
+        tick_labels=[
             "Baseline",
             "Optimized",
         ],
